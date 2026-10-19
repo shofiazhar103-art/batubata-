@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omah Bata Ekspos | Supplier Bata Ekspos & Roster Purwodadi, Grobogan</title>
+<meta name="description" content="Supplier bata ekspos dan roster/bata tempel langsung dari pengrajin. Harga pabrik, kirim ke seluruh Indonesia. Pusat di Purwodadi, Grobogan, Jawa Tengah.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--alt:#faf7f2;--card:#f5f0e8;--ink:#1c1612;--mute:#6b85758;--brick:#b8421f;--brick2:#cf5a30;--line:rgba(28,22,18,.12);--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.65 'Instrument Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{width:min(1180px,92%);margin-inline:auto}
+section{padding:clamp(64px,9vw,112px) 0}
+.alt{background:var(--alt)}
+h2{font-size:clamp(1.9rem,4.4vw,3.1rem);font-weight:800;max-width:19ch}
+.lead{color:var(--mute);max-width:58ch;margin-top:14px}
+:focus-visible{outline:2px solid var(--brick2);outline-offset:3px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 28px;border-radius:999px;font-weight:600;text-decoration:none;border:1px solid transparent;cursor:pointer;font:600 1rem 'Instrument Sans',sans-serif;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--brick);color:#fff}.btn-primary:hover{background:var(--brick2)}
+.btn-ghost{border-color:var(--line);background:rgba(255,255,255,.7);color:var(--ink);backdrop-filter:blur(8px)}
+
+/* NAV */
+nav{position:fixed;inset:0 0 auto;z-index:50;padding:12px 0;background:rgba(255,255,255,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font:800 1.2rem 'Bricolage Grotesque';text-decoration:none}
+.links{display:flex;gap:26px;font-size:.92rem;color:var(--mute)}
+.links a{text-decoration:none}.links a:hover{color:var(--brick)}
+nav .btn{padding:10px 20px;font-size:.9rem}
+
+/* HERO */
+
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:120px 0 80px}
+.hero-bg{position:absolute;inset:-8%;z-index:0;
+ /* Ganti dengan foto Anda: --hero-img:url('foto-dinding-bata.jpg') */
+ background-image:var(--hero-img,none),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='64'%3E%3Crect width='96' height='64' fill='%23d9cfc3'/%3E%3Crect x='2' y='2' width='44' height='28' fill='%23a8452a'/%3E%3Crect x='50' y='2' width='44' height='28' fill='%23b94f31'/%3E%3Crect x='-22' y='34' width='44' height='28' fill='%23b04a2e'/%3E%3Crect x='26' y='34' width='44' height='28' fill='%23983f27'/%3E%3Crect x='74' y='34' width='44' height='28' fill='%23c25a36'/%3E%3C/svg%3E");
+ background-size:cover,200px 133px;background-position:center;animation:zoom 28s ease-in-out infinite alternate;will-change:transform}
+.hero-bg video{width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,#fffffff5 20%,#ffffffc2 52%,#ffffff40),linear-gradient(0deg,#fff,transparent 28%)}
+@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.14)}}
+.hero .wrap{position:relative;z-index:2}
+.hero h1{font-size:clamp(2.6rem,8vw,6rem);font-weight:800;max-width:13ch}
+.hero p{font-size:clamp(1.05rem,2vw,1.25rem);color:#4a4138;max-width:50ch;margin:22px 0 34px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px}
+.hero-facts{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:52px;color:var(--mute);font-size:.95rem}
+.hero-facts b{color:var(--ink);font-weight:600}
+
+/* STRIP */
+.strip{padding:0;border-block:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:28px 22px;border-left:1px solid var(--line);font-size:.92rem;color:var(--mute)}
+.strip div:first-child{border-left:0}
+.strip b{display:block;font:800 1.15rem 'Bricolage Grotesque';color:var(--ink);margin-bottom:4px}
+
+/* CARDS */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+.why,.t{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px}
+.why svg{width:34px;height:34px;stroke:var(--brick);fill:none;stroke-width:1.6;margin-bottom:18px}
+.why h3{font-size:1.2rem;margin-bottom:8px}
+.why p{color:var(--mute);font-size:.95rem}
+
+/* CAROUSEL */
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.arrows{display:flex;gap:10px}
+.arrows button{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:1.2rem;cursor:pointer;transition:background .2s,color .2s}
+.arrows button:hover{background:var(--brick);color:#fff}
+.track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:36px 4vw 18px;margin-inline:calc(50% - 50vw);scroll-padding-inline:4vw;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.track::-webkit-scrollbar{display:none}
+.item{flex:0 0 min(300px,78vw);scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.shot{position:relative;aspect-ratio:4/3;background:linear-gradient(135deg,#e9e2d7,#ddd4c6)}
+.shot::before{content:"Foto produk";position:absolute;inset:0;display:grid;place-items:center;color:#9a8f81;font-size:.85rem}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shot img:not([src]),.shot img[src=""]{display:none}
+.spec{margin:-44px 12px 0;position:relative;padding:16px;border-radius:14px;background:rgba(255,255,255,.66);border:1px solid rgba(255,255,255,.8);box-shadow:0 8px 24px rgba(28,22,18,.1);backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%)}
+.spec h3{font-size:1.1rem}
+.spec dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin-top:10px;font-size:.85rem}
+.spec dt{color:var(--mute)}.spec dd{text-align:right}
+.item .btn{margin:14px 12px 12px;padding:11px;font-size:.9rem}
+
+/* TABLE */
+.tbl{overflow-x:auto;margin-top:40px;border:1px solid var(--line);border-radius:var(--r);background:#fff}
+table{width:100%;border-collapse:collapse;min-width:640px;font-size:.93rem}
+th,td{padding:16px 20px;text-align:left;border-bottom:1px solid var(--line)}
+th{font:700 .95rem 'Bricolage Grotesque';background:var(--card)}
+td:first-child{font-weight:600}
+tr:last-child td{border-bottom:0}
+
+/* POLA */
+.pola{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.pola figure{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px}
+.pola svg{width:100%;border-radius:10px;background:#d9cfc3}
+.pola figcaption{padding:14px 6px 6px;font-size:.9rem;color:var(--mute)}
+.pola b{display:block;color:var(--ink);font:700 1.05rem 'Bricolage Grotesque'}
+
+/* KALKULATOR */
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-top:40px}
+.box{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,4vw,34px)}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.res{background:var(--ink);color:#fff;border-radius:var(--r);padding:clamp(24px,4vw,40px)}
+.res small{color:#b9afa3;display:block}
+.res .big{font:800 clamp(2.6rem,6vw,4rem) 'Bricolage Grotesque';line-height:1;margin:8px 0 4px}
+.res p{color:#cfc6ba;font-size:.92rem;margin:14px 0 24px}
+
+/* LANGKAH */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px;counter-reset:s}
+.step{border-top:3px solid var(--brick);padding-top:18px;counter-increment:s}
+.step::before{content:counter(s);font:800 2.4rem 'Bricolage Grotesque';color:var(--brick);display:block;line-height:1;margin-bottom:10px}
+.step h3{font-size:1.15rem;margin-bottom:6px}
+.step p{color:var(--mute);font-size:.94rem}
+
+/* GALERI */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
+.gal figure{border-radius:var(--r);overflow:hidden;background:var(--card)}
+.gal .shot{aspect-ratio:1/1}
+.gal figure:nth-child(1),.gal figure:nth-child(4){grid-row:span 1}
+.gal figcaption{padding:12px 16px;font-size:.9rem;color:var(--mute)}
+
+/* TESTI */
+.stars{color:var(--brick2);letter-spacing:3px;margin-bottom:12px}
+.t{display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+.who{display:flex;gap:12px;align-items:center;font-size:.9rem}
+.who i{width:42px;height:42px;border-radius:50%;background:var(--brick);color:#fff;display:grid;place-items:center;font:700 1rem 'Bricolage Grotesque';font-style:normal;flex:none}
+.who span{display:block;color:var(--mute);font-size:.82rem}
+
+/* FAQ */
+.faq{max-width:820px;margin-top:40px}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:20px 24px;font-weight:600;display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.5rem;color:var(--brick);transition:transform .3s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+.ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s}
+details[open] .ans{grid-template-rows:1fr}
+.ans>div{overflow:hidden}
+.ans p{padding:0 24px 22px;color:var(--mute)}
+
+/* MAP */
+.map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);margin-top:36px;height:clamp(300px,45vw,440px)}
+.map iframe{width:100%;height:100%;border:0}
+
+/* ORDER */
+#order{background:linear-gradient(180deg,#fff,#f6e6dc)}
+.order{display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:start}
+.order .btn{margin-top:28px}
+form{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,4vw,36px);display:grid;grid-template-columns:1fr 1fr;gap:16px;box-shadow:0 20px 50px rgba(120,60,30,.08)}
+label{display:grid;gap:6px;font-size:.88rem;color:var(--mute)}
+label.full{grid-column:1/-1}
+input,select,textarea{width:100%;background:#fbf9f6;border:1px solid var(--line);border-radius:10px;padding:13px 14px;color:var(--ink);font:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--brick2);border-color:transparent}
+textarea{min-height:90px;resize:vertical}
+form .btn{grid-column:1/-1}
+
+/* FOOTER */
+footer{background:var(--ink);color:#cfc6ba;padding:56px 0 28px;font-size:.92rem}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px}
+footer h3{color:#fff;font-size:1.05rem;margin-bottom:12px}
+footer a{text-decoration:none;display:block;margin-bottom:6px}footer a:hover{color:#fff}
+.copy{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem;color:#8d8479}
+.wa-float{position:fixed;right:16px;bottom:16px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.wa-float svg{width:28px;height:28px;fill:none;stroke:#fff;stroke-width:2}
+
+@media(max-width:960px){.links{display:none}.grid3{grid-template-columns:1fr 1fr}.pola,.steps{grid-template-columns:1fr 1fr}.calc,.order{grid-template-columns:1fr;gap:32px}.strip .wrap{grid-template-columns:1fr 1fr}.strip div:nth-child(3){border-left:0}.strip div:nth-child(n+3){border-top:1px solid var(--line)}}
+@media(max-width:600px){.grid3,.steps,.fgrid{grid-template-columns:1fr}.pola{grid-template-columns:1fr 1fr;gap:12px}.gal{grid-template-columns:1fr 1fr;gap:10px}.fields,form{grid-template-columns:1fr}.hero{padding-top:100px}.hero .btn{width:100%}.arrows button{width:42px;height:42px}nav .btn{display:none}.strip div{padding:20px 14px}}
+@media(prefers-reduced-motion:reduce){.hero-bg{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap"><a class="logo" href="#top">Omah Bata Ekspos</a>
+<div class="links"><a href="#katalog">Katalog</a><a href="#kalkulator">Hitung kebutuhan</a><a href="#galeri">Proyek</a><a href="#faq">FAQ</a><a href="#lokasi">Lokasi</a></div>
+<a class="btn btn-primary" href="#order">Minta penawaran</a></div></nav>
+
+<!-- 1. HERO -->
+<header class="hero" id="top">
+  <div class="hero-bg" id="heroBg">
+    <!-- Opsional video: hapus komentar dan isi src, video akan menimpa pola bata
+    <video autoplay muted loop playsinline src=""></video> -->
+  </div>
+  <div class="wrap">
+    <h1>Dinding bata ekspos yang tahan puluhan tahun</h1>
+    <p>Bata ekspos dan roster langsung dari pengrajin Grobogan. Ukuran presisi, warna merata, harga pabrik, dikirim ke seluruh Indonesia.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://wa.me/6281935609393?text=Halo%20Omah%20Bata%20Ekspos%2C%20saya%20ingin%20tanya%20harga%20bata%20ekspos." target="_blank" rel="noopener">Chat sales di WhatsApp</a>
+      <a class="btn btn-ghost" href="#katalog">Lihat katalog</a>
+    </div>
+    <div class="hero-facts"><span><b>Pengrajin langsung</b> tanpa perantara</span><span><b>Kirim nusantara</b> packing aman</span><span><b>Purwodadi</b>, Grobogan, Jawa Tengah</span></div>
+  </div>
+</header>
+
+<div class="strip"><div class="wrap">
+  <div><b>Langsung pengrajin</b>Tanpa distributor berlapis</div>
+  <div><b>Seluruh Indonesia</b>Truk, ekspedisi, kargo</div>
+  <div><b>Ekspos dan roster</b>Satu pemasok, satu pengiriman</div>
+  <div><b>Konsultasi gratis</b>Dibantu hitung kebutuhan</div>
+</div></div>
+
+<!-- 2. KEUNGGULAN -->
+<section id="why"><div class="wrap">
+  <h2>Kenapa kontraktor dan pemilik rumah memilih kami</h2>
+  <p class="lead">Kami memegang satu hal: bata yang Anda pasang hari ini tetap rapi dan kuat saat dilihat sepuluh tahun lagi.</p>
+  <div class="grid3">
+    <div class="why"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.500 8-8 9-4.500-1-8-4-8-9V7z"/><path d="M8.500 12l2.500 2.500 4.500-5"/></svg><h3>Bata kualitas premium</h3><p>Dibakar matang, kuat tekan baik, dimensi presisi sehingga nat pemasangan rapi dan hemat adukan.</p></div>
+    <div class="why"><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.800"/><circle cx="17" cy="18" r="1.800"/></svg><h3>Pengiriman aman ke seluruh nusantara</h3><p>Disusun dan dikemas aman di palet atau kayu, bisa lewat truk, ekspedisi, atau kargo.</p></div>
+    <div class="why"><svg viewBox="0 0 24 24"><path d="M4 12l8-8h8v8l-8 8z"/><circle cx="15.500" cy="8.500" r="1.300"/></svg><h3>Harga pabrik yang terjangkau</h3><p>Tanpa rantai distributor. Harga makin ringan untuk pembelian proyek dalam jumlah besar.</p></div>
+    <div class="why"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.500-7 8-7s8 3 8 7"/></svg><h3>Langsung dari pengrajin terpercaya</h3><p>Diproduksi pengrajin berpengalaman dengan pengecekan kualitas di setiap batch pembakaran.</p></div>
+    <div class="why"><svg viewBox="0 0 24 24"><path d="M4 20V10l8-6 8 6v10z"/><path d="M9 20v-6h6v6"/></svg><h3>Cocok untuk berbagai proyek</h3><p>Rumah tinggal, kafe, ruko, villa, hingga gedung. Cocok untuk fasad, interior, pagar, dan taman.</p></div>
+    <div class="why"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.600 7.100L4 20l1-4.600A8 8 0 1121 12z"/><path d="M9 10h6M9 14h4"/></svg><h3>Konsultasi gratis</h3><p>Tanya jenis bata, pola pemasangan, dan perawatan langsung ke tim sales lewat WhatsApp.</p></div>
+  </div>
+</div></section>
+
+<!-- 3. KATALOG BATA EKSPOS -->
+<section id="katalog" class="alt" style="padding-bottom:30px"><div class="wrap head">
+  <div><h2>Katalog bata ekspos</h2><p class="lead">Geser ke samping untuk melihat semua model. Tap tombol di kartu untuk tanya harga model tersebut.</p></div>
+  <div class="arrows"><button aria-label="Sebelumnya" data-t="trackA" data-d="-1">&#8592;</button><button aria-label="Berikutnya" data-t="trackA" data-d="1">&#8594;</button></div>
+</div>
+<div class="track" id="trackA" tabindex="0" aria-label="Katalog bata ekspos"></div></section>
+
+<!-- 4. KATALOG ROSTER / BATA TEMPEL -->
+<section id="roster" style="padding-bottom:30px"><div class="wrap head">
+  <div><h2>Roster dan bata tempel</h2><p class="lead">Pelengkap dinding: ventilasi estetik, partisi berlubang, dan bata tempel untuk tampilan ekspos tanpa struktur tebal.</p></div>
+  <div class="arrows"><button aria-label="Sebelumnya" data-t="trackB" data-d="-1">&#8592;</button><button aria-label="Berikutnya" data-t="trackB" data-d="1">&#8594;</button></div>
+</div>
+<div class="track" id="trackB" tabindex="0" aria-label="Katalog roster dan bata tempel"></div></section>
+
+<!-- PERBANDINGAN -->
+<section id="spek" class="alt"><div class="wrap">
+  <h2>Bata ekspos, bata tempel, atau roster?</h2>
+  <p class="lead">Pilih berdasarkan fungsi dinding dan anggaran. Nilai di bawah adalah panduan umum, ukuran pasti menyesuaikan model yang Anda pilih.</p>
+  <div class="tbl"><table>
+    <thead><tr><th></th><th>Bata ekspos</th><th>Bata tempel</th><th>Roster</th></tr></thead>
+    <tbody>
+      <tr><td>Fungsi</td><td>Dinding struktur sekaligus tampilan</td><td>Pelapis estetika di atas dinding jadi</td><td>Ventilasi, partisi, dan aksen dinding</td></tr>
+      <tr><td>Ketebalan</td><td>Tebal penuh (sekitar 5 cm)</td><td>Tipis (sekitar 1,5 cm)</td><td>Tebal (sekitar 10 cm)</td></tr>
+      <tr><td>Pemasangan</td><td>Disusun dengan adukan dan nat</td><td>Ditempel dengan perekat</td><td>Disusun atau dipasang pada rangka</td></tr>
+      <tr><td>Cocok untuk</td><td>Fasad, pagar, interior industrial</td><td>Renovasi, dinding aksen, backdrop</td><td>Sirkulasi udara, taman, pembatas</td></tr>
+      <tr><td>Perawatan</td><td>Coating water repellent berkala</td><td>Coating dan cek nat tempel</td><td>Bersihkan debu dan lumut</td></tr>
+    </tbody></table></div>
+</div></section>
+
+<!-- POLA PEMASANGAN -->
+<section id="pola"><div class="wrap">
+  <h2>Pola pemasangan yang bisa Anda pilih</h2>
+  <p class="lead">Pola menentukan karakter dinding. Beri tahu pola pilihan Anda agar kebutuhan bata dihitung lebih tepat.</p>
+  <div class="pola" id="polaGrid"></div>
+</div></section>
+
+<!-- KALKULATOR -->
+<section id="kalkulator" class="alt"><div class="wrap">
+  <h2>Hitung kebutuhan bata dindingmu</h2>
+  <p class="lead">Masukkan ukuran dinding, hasilnya langsung muncul. Perhitungan sudah menyertakan cadangan untuk potongan dan pecah.</p>
+  <div class="calc">
+    <div class="box"><div class="fields">
+      <label>Panjang dinding (m)<input id="cL" type="number" min="0" step="0.1" value="10"></label>
+      <label>Tinggi dinding (m)<input id="cH" type="number" min="0" step="0.1" value="3"></label>
+      <label>Panjang bata (cm)<input id="cBL" type="number" min="1" step="0.5" value="24"></label>
+      <label>Tinggi bata (cm)<input id="cBH" type="number" min="1" step="0.5" value="5"></label>
+      <label>Tebal nat (cm)<input id="cN" type="number" min="0" step="0.1" value="1"></label>
+      <label>Bukaan pintu/jendela (m²)<input id="cO" type="number" min="0" step="0.1" value="0"></label>
+      <label class="full">Cadangan potongan dan pecah<select id="cW"><option value="3">3 persen</option><option value="5" selected>5 persen</option><option value="8">8 persen</option><option value="10">10 persen</option></select></label>
+    </div></div>
+    <div class="res"><small>Perkiraan kebutuhan</small><div class="big" id="rQty">0</div><small id="rInfo">pcs bata</small>
+      <p>Hasil berupa perkiraan. Sales kami akan memastikan jumlah akhir sesuai pola, model, dan kondisi lapangan.</p>
+      <a class="btn btn-primary" id="rWA" href="#" target="_blank" rel="noopener">Pesan jumlah ini lewat WhatsApp</a></div>
+  </div>
+</div></section>
+
+<!-- CARA PESAN -->
+<section id="cara"><div class="wrap">
+  <h2>Cara pesan yang mudah</h2>
+  <div class="steps">
+    <div class="step"><h3>Pilih model</h3><p>Lihat katalog dan tentukan bata ekspos, roster, atau bata tempel yang sesuai desain.</p></div>
+    <div class="step"><h3>Kirim kebutuhan</h3><p>Isi formulir atau chat WhatsApp berisi lokasi proyek dan perkiraan jumlah.</p></div>
+    <div class="step"><h3>Terima penawaran</h3><p>Kami kirim harga bata, estimasi ongkir, dan jadwal produksi atau pengiriman.</p></div>
+    <div class="step"><h3>Bata dikirim</h3><p>Setelah pembayaran dikonfirmasi, bata dikemas aman dan dikirim sampai lokasi Anda.</p></div>
+  </div>
+</div></section>
+
+<!-- GALERI -->
+<section id="galeri" class="alt"><div class="wrap">
+  <h2>Hasil pemasangan di berbagai proyek</h2>
+  <p class="lead">Contoh dinding yang dibangun dengan bata dari Omah Bata Ekspos.</p>
+  <div class="gal" id="galGrid"></div>
+</div></section>
+
+<!-- 5. TESTIMONI -->
+<section id="testimoni"><div class="wrap">
+  <h2>Kata mereka yang sudah memasang</h2>
+  <div class="grid3">
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Ukuran bata konsisten, jadi tukang kami memasang lebih cepat dan nat-nya rapi. Proyek ruko 3 lantai selesai tanpa banyak bata terbuang.</blockquote></div><div class="who"><i>H</i><div>Bpk. Hendra<span>Kontraktor, Semarang</span></div></div></div>
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Warna batanya hangat dan merata, sesuai render desain. Sudah beberapa kali saya rekomendasikan ke klien untuk fasad dan interior.</blockquote></div><div class="who"><i>D</i><div>Ar. Dian Prameswari<span>Arsitek, Yogyakarta</span></div></div></div>
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Dikirim sampai luar Jawa dan tidak ada yang pecah. Harganya juga lebih masuk akal dibanding toko bangunan di kota saya.</blockquote></div><div class="who"><i>R</i><div>Ibu Rina<span>Pemilik rumah, Balikpapan</span></div></div></div>
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Roster-nya presisi dan kuat. Pemasangan pagar dan taman belakang jadi lebih mudah karena ukurannya seragam.</blockquote></div><div class="who"><i>W</i><div>Bpk. Wahyu<span>Kontraktor, Surabaya</span></div></div></div>
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Respon sales cepat, dibantu hitung kebutuhan bata sesuai gambar kerja. Tidak ada kelebihan atau kekurangan material.</blockquote></div><div class="who"><i>A</i><div>Ar. Adi Nugroho<span>Arsitek, Jakarta</span></div></div></div>
+    <div class="t"><div><div class="stars">★★★★★</div><blockquote>Kami pakai bata tempel untuk dinding kafe. Hasilnya seperti bata ekspos asli, pengerjaan juga jauh lebih cepat.</blockquote></div><div class="who"><i>S</i><div>Sari<span>Pemilik kafe, Solo</span></div></div></div>
+  </div>
+</div></section>
+
+<!-- 6. FAQ -->
+<section id="faq" class="alt"><div class="wrap">
+  <h2>Pertanyaan yang sering ditanyakan</h2>
+  <div class="faq">
+    <details><summary>Apa bedanya bata ekspos dengan bata merah biasa?</summary><div class="ans"><div><p>Bata ekspos dibuat dengan bentuk, tekstur, dan warna yang lebih seragam karena memang dirancang untuk dibiarkan terlihat tanpa plester. Bata merah biasa umumnya ditutup plesteran dan acian.</p></div></div></details>
+    <details><summary>Berapa kebutuhan bata ekspos per meter persegi?</summary><div class="ans"><div><p>Tergantung ukuran bata dan tebal nat. Gunakan kalkulator di halaman ini untuk perkiraan cepat, atau kirim luas dinding lewat WhatsApp agar kami hitung bersama cadangannya.</p></div></div></details>
+    <details><summary>Apakah bata ekspos perlu dilapisi coating?</summary><div class="ans"><div><p>Disarankan, terutama untuk area luar ruangan agar tahan lumut dan rembesan air. Gunakan coating transparan khusus bata ekspos (water repellent) dan ulangi sesuai petunjuk produk.</p></div></div></details>
+    <details><summary>Bagaimana cara merawat dan membersihkan dinding bata ekspos?</summary><div class="ans"><div><p>Bersihkan debu dengan sikat berbulu lembut dan lap kain lembap. Untuk lumut, gunakan air dan sikat tanpa tekanan tinggi. Hindari asam keras karena dapat merusak permukaan bata.</p></div></div></details>
+    <details><summary>Bagaimana mencegah noda putih (kapur) di dinding bata?</summary><div class="ans"><div><p>Noda putih berasal dari garam yang terbawa air. Pastikan dinding tidak mudah basah, gunakan adukan yang tepat, dan beri coating. Noda ringan biasanya hilang dengan sikat kering atau pembersih khusus.</p></div></div></details>
+    <details><summary>Apakah bisa kirim ke luar pulau?</summary><div class="ans"><div><p>Bisa. Kami melayani pengiriman ke seluruh Indonesia dengan truk, ekspedisi, atau kargo. Bata disusun dan dikemas aman agar tiba dalam kondisi baik. Ongkir dihitung sesuai tujuan dan volume.</p></div></div></details>
+    <details><summary>Bagaimana jika ada bata pecah saat pengiriman?</summary><div class="ans"><div><p>Kami menyertakan cadangan wajar dalam perhitungan dan mengemas bata dengan aman. Jika ada kerusakan berlebih, foto dan kabari kami secepatnya agar ditindaklanjuti sesuai ketentuan.</p></div></div></details>
+    <details><summary>Berapa lama proses pesanan hingga sampai?</summary><div class="ans"><div><p>Stok tersedia dikirim lebih cepat. Untuk jumlah besar atau model tertentu, waktu produksi menyesuaikan. Estimasi pastinya kami konfirmasi saat penawaran.</p></div></div></details>
+    <details><summary>Bisakah saya minta sampel sebelum memesan?</summary><div class="ans"><div><p>Bisa. Hubungi sales untuk meminta sampel dan ketentuan biaya kirimnya.</p></div></div></details>
+    <details><summary>Apakah ada harga khusus untuk kontraktor atau pembelian partai besar?</summary><div class="ans"><div><p>Ada. Semakin besar jumlah pesanan, semakin ringan harga per pcs. Kirim kebutuhan proyek Anda untuk mendapat penawaran terbaik.</p></div></div></details>
+  </div>
+</div></section>
+
+<!-- 7. MAPS -->
+<section id="lokasi"><div class="wrap">
+  <h2>Kunjungi workshop kami di Purwodadi</h2>
+  <p class="lead">Purwodadi, Kabupaten Grobogan, Jawa Tengah. Hubungi kami dulu agar tim siap menemani Anda melihat contoh bata.</p>
+  <div class="map"><iframe title="Lokasi Omah Bata Ekspos, Purwodadi Grobogan" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Purwodadi%2C%20Grobogan%2C%20Jawa%20Tengah&z=13&output=embed"></iframe></div>
+</div></section>
+
+<!-- 8. CTA + FORM -->
+<section id="order"><div class="wrap order">
+  <div>
+    <h2>Siap mulai proyek Anda?</h2>
+    <p class="lead">Isi detail kebutuhan di formulir. Data dikirim ke WhatsApp sales kami dan penawaran dibalas secepatnya.</p>
+    <a class="btn btn-primary" href="https://wa.me/6281935609393?text=Halo%20Omah%20Bata%20Ekspos%2C%20saya%20ingin%20konsultasi%20proyek." target="_blank" rel="noopener">Chat langsung 0857-1930-9862</a>
+  </div>
+  <form id="orderForm">
+    <label>Nama lengkap<input name="nama" required autocomplete="name"></label>
+    <label>Nomor WhatsApp<input name="wa" type="tel" required autocomplete="tel" placeholder="08xx"></label>
+    <label>Kota / lokasi proyek<input name="kota" required></label>
+    <label>Jenis proyek<select name="proyek" required><option value="">Pilih</option><option>Rumah tinggal</option><option>Kafe / restoran</option><option>Ruko / komersial</option><option>Villa / resort</option><option>Gedung / lainnya</option></select></label>
+    <label>Produk yang dibutuhkan<select name="produk"><option>Bata ekspos</option><option>Roster</option><option>Bata tempel</option><option>Kombinasi</option></select></label>
+    <label>Perkiraan kebutuhan<input name="qty" placeholder="mis. 5.000 pcs atau 80 m²"></label>
+    <label class="full">Catatan tambahan<textarea name="catatan" placeholder="Model yang diminati, jadwal pemasangan, dll."></textarea></label>
+    <button class="btn btn-primary" type="submit">Kirim pesanan lewat WhatsApp</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><h3>Omah Bata Ekspos</h3><p>Supplier bata ekspos, roster, dan bata tempel langsung dari pengrajin. Melayani proyek rumah, kafe, ruko, dan gedung di seluruh Indonesia.</p></div>
+    <div><h3>Menu</h3><a href="#katalog">Katalog bata ekspos</a><a href="#roster">Roster dan bata tempel</a><a href="#kalkulator">Hitung kebutuhan</a><a href="#faq">FAQ</a></div>
+    <div><h3>Kontak</h3><a href="https://wa.me/6281935609393" target="_blank" rel="noopener">WhatsApp 0857-1930-9862</a><a href="#lokasi">Purwodadi, Grobogan, Jawa Tengah</a></div>
+  </div>
+  <div class="copy">&copy; <span id="yr"></span> Omah Bata Ekspos. Seluruh hak dilindungi.</div>
+</div></footer>
+
+<a class="wa-float" aria-label="Chat WhatsApp" href="https://wa.me/6281935609393" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.600 7.100L4 20l1-4.600A8 8 0 1121 12z"/><path d="M9 10h6M9 14h4"/></svg></a>
+
+<script>
+const WA='6281935609393';
+// Isi src gambar sendiri lewat atribut src pada tag img di bawah, atau tambahkan field img:'foto/x.jpg' lalu ubah template
+const ekspos=[
+ ['Bata ekspos Klasik','Merah bata','24 x 11 x 5 cm','https://i.pinimg.com/736x/1e/f0/53/1ef053883e5ba4d2a9a6e4a3ef533744.jpg'],
+ ['Bata ekspos Jumbo','Merah tua','30 x 12 x 6 cm','https://i.pinimg.com/736x/cd/09/a5/cd09a5380fd995a2d4be1c1e226b29e1.jpg'],
+ ['Bata ekspos Kusam','Natural matte','24 x 11 x 5 cm','https://i.pinimg.com/1200x/3a/ea/c2/3aeac24835c1bc2975ae2a2061ebf48c.jpg'],
+ ['Bata ekspos Antik','Bakar tua','22 x 10 x 5 cm','https://i.pinimg.com/736x/01/13/4c/01134ca74e32a184420878bd6a843e04.jpg'],
+ ['Bata ekspos Glossy','Kilap halus','24 x 11 x 5 cm','https://i.pinimg.com/736x/8b/2d/d7/8b2dd7b10f1a78410cea523dcef3040e.jpg'],
+ ['Bata ekspos Tumpuk','Oranye bata','24 x 11 x 5 cm','https://i.pinimg.com/736x/23/1b/cc/231bccac38275bcd3ff6ac087bdb86f7.jpg'],
+ ['Bata ekspos Rustik','Kasar alami','24 x 11 x 5 cm','https://i.pinimg.com/736x/6b/a8/8f/6ba88f97a4b05ba468fd2b1a1bdfe535.jpg'],
+ ['Bata ekspos Hitam Bakar','Charcoal','24 x 11 x 5 cm','https://i.pinimg.com/736x/34/b6/6a/34b66a78bca22d00578c4bd97c2ac747.jpg'],
+ ['Bata ekspos Pressed','Presisi tinggi','23 x 11 x 5 cm','https://i.pinimg.com/1200x/4f/9e/ef/4f9eef35eb2b8789f0ef3ac83a0fba21.jpg']
+];
+const roster=[
+  ['Roster Diamond','Ventilasi motif','20 x 20 x 10 cm','https://i.pinimg.com/1200x/06/f5/18/06f518e36ce182c8fe9d64394f4177f5.jpg'],
+  ['Roster Kotak','Lubang kotak','20 x 20 x 10 cm','https://i.pinimg.com/1200x/6d/78/b3/6d78b3e738ba8d5efab36466183b0a4b.jpg'],
+  ['Roster Bulat','Lubang bulat','20 x 20 x 10 cm','https://i.pinimg.com/1200x/a1/83/05/a18305cb2825438eca8b505e550032f6.jpg'],
+  ['Roster Segi Enam','Motif sarang','20 x 20 x 10 cm','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG2bpUVBd0R8R0UqMa9gnv3jsdilwzmQj09AfzD3DDw&s=10'],
+  ['Bata tempel Klasik','Tebal tipis','24 x 6 x 1,5 cm','https://i.pinimg.com/1200x/76/4b/18/764b1866fcef6feb45b3138c77166a74.jpg'],
+  ['Bata tempel Sudut','Corner siku','24 x 6 x 1,5 cm','https://i.pinimg.com/1200x/6b/0a/67/6b0a67a47a7d13b508e3d9c5132100a0.jpg'],
+  ['Bata tempel Rustik','Kasar alami','24 x 6 x 1,5 cm','https://i.pinimg.com/1200x/8e/25/94/8e2594dc8b1a57aeb2fde846b534929f.jpg'],
+  ['Roster Panjang','Partisi taman','40 x 20 x 10 cm','https://i.pinimg.com/736x/8d/e0/78/8de078caa7942756b88f44ce70d33b17.jpg']
+];
+function build(id,list){
+ document.getElementById(id).innerHTML=list.map(p=>`<article class="item"><div class="shot"><img src="${p[3] || ''}" alt="${p[0]}" loading="lazy"></div>
+ <div class="spec"><h3>${p[0]}</h3><dl><dt>Warna / tipe</dt><dd>${p[1]}</dd><dt>Ukuran</dt><dd>${p[2]}</dd><dt>Harga</dt><dd>Hubungi sales</dd></dl></div>
+ <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent('Halo Omah Bata Ekspos, saya tertarik dengan '+p[0]+'. Boleh minta info harga?')}">Tanya harga</a></article>`).join('');
+}
+build('trackA',ekspos);build('trackB',roster);
+document.querySelectorAll('.arrows button').forEach(b=>b.onclick=()=>{
+ const t=document.getElementById(b.dataset.t);t.scrollBy({left:b.dataset.d*(t.querySelector('.item').offsetWidth+18),behavior:'smooth'});});
+
+// Pola pemasangan (SVG)
+function pat(type){
+ let r='',bw=24,bh=10,g=2,i=0;const rect=(x,y,w,h)=>{r+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="1" fill="#b8421f" opacity="${[1,.88,.95,.8][i++%4]}"/>`};
+ if(type==='running'||type==='stack'){for(let y=0,row=0;y<84;y+=bh+g,row++){let off=type==='running'&&row%2?-(bw+g)/2:0;for(let x=off;x<120;x+=bw+g)rect(x,y,bw,bh)}}
+ if(type==='flemish'){const hw=(bw-g)/2,U=bw+hw+2*g;for(let y=0,row=0;y<84;y+=bh+g,row++){let off=row%2?-U/2:0;for(let x=off;x<130;x+=U){rect(x,y,bw,bh);rect(x+bw+g,y,hw,bh)}}}
+ if(type==='basket'){for(let a=0;a<5;a++)for(let b=0;b<4;b++){const x=a*26,y=b*26;if((a+b)%2===0){rect(x,y,24,10);rect(x,y+12,24,10)}else{rect(x,y,10,24);rect(x+12,y,10,24)}}}
+ return `<svg viewBox="0 0 120 80" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true">${r}</svg>`;
+}
+const polaList=[['running','Susun silang (stretcher)','Pola paling umum, kuat dan klasik.'],['stack','Susun lurus (stack)','Nat membentuk garis, tampilan modern minimalis.'],['flemish','Flemish','Selang-seling sisi panjang dan pendek, karakter kuno.'],['basket','Anyaman (basket)','Pasangan bata tegak dan datar, cocok untuk aksen.']];
+document.getElementById('polaGrid').innerHTML=polaList.map(p=>`<figure>${pat(p[0])}<figcaption><b>${p[1]}</b>${p[2]}</figcaption></figure>`).join('');
+
+// Galeri placeholder
+const gal = [
+  {
+    nama: 'Pondok Pesantren Al-zaytun',
+    gambar: 'https://al-zaytun.ac.id/images/pic10.jpg'
+  },
+  {
+    nama: 'Kampus universitas Depok',
+    gambar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR71_HuYI3_pu_KpY2IUuW8WzCbLwkm_GTwJrsUCJM_fA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ14lwVj-lULWEV5lrlO1AF5UurwdRzVg3OZ1aXz8mA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ14lwVj-lULWEV5lrlO1AF5UurwdRzVg3OZ1aXz8mA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREdVZvbbZvLD6o5WKriPk_iApTL8g_sdDFKPRbM--yeARdjC1yidrtMJY&s=10'
+  },
+  {
+    nama: 'Pagar dan taman',
+    gambar: 'https://i.pinimg.com/1200x/e5/97/ec/e597ec5ad6b329961a5e1be5cd2e5ce8.jpg'
+  },
+  {
+    nama: 'Rumah dua lantai',
+    gambar: 'https://i.pinimg.com/1200x/80/b5/27/80b5274002faca54df088af2aec437b9.jpg'
+  },
+  {
+    nama: 'Villa',
+    gambar: 'https://i.pinimg.com/1200x/81/a4/72/81a472f81f0082b408609b85b2ffc368.jpg'
+  },
+  {
+    nama: 'Backdrop ruang tamu',
+    gambar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGl57KmKx-FrssQ66RP-XfaGKxygFPmFuqk_i9Obbhjw&s=10'
+  }
+];
+
+document.getElementById('galGrid').innerHTML = gal.map(t => `
+  <figure>
+    <div class="shot">
+      <img src="${t.gambar}" alt="${t.nama}" loading="lazy">
+    </div>
+    <figcaption>${t.nama}</figcaption>
+  </figure>
+`).join('');
+
+// Kalkulator
+const $=id=>document.getElementById(id),num=id=>parseFloat($(id).value)||0;
+function calc(){
+ const area=Math.max(num('cL')*num('cH')-num('cO'),0),unit=((num('cBL')+num('cN'))*(num('cBH')+num('cN')))/10000;
+ const qty=unit>0?Math.ceil(area/unit*(1+num('cW')/100)):0;
+ $('rQty').textContent=qty.toLocaleString('id-ID');
+ $('rInfo').textContent='pcs bata untuk '+area.toFixed(1).replace('.',',')+' m² dinding';
+ $('rWA').href=`https://wa.me/${WA}?text=`+encodeURIComponent(`Halo Omah Bata Ekspos, hasil hitung saya sekitar ${qty.toLocaleString('id-ID')} pcs bata untuk dinding ${area.toFixed(1)} m² (bata ${num('cBL')} x ${num('cBH')} cm, nat ${num('cN')} cm). Boleh minta penawaran?`);
+}
+document.querySelectorAll('.calc input,.calc select').forEach(e=>e.addEventListener('input',calc));calc();
+
+// Parallax hero
+const bg=$('heroBg');
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches)addEventListener('scroll',()=>{if(scrollY<innerHeight)bg.style.translate='0 '+scrollY*.25+'px'},{passive:true});
+
+// Form -> WhatsApp
+$('orderForm').addEventListener('submit',e=>{
+ e.preventDefault();const f=new FormData(e.target),v=k=>f.get(k)||'-';
+ const m=`Halo Omah Bata Ekspos, saya ingin memesan.\n\nNama: ${v('nama')}\nWhatsApp: ${v('wa')}\nLokasi proyek: ${v('kota')}\nJenis proyek: ${v('proyek')}\nProduk: ${v('produk')}\nKebutuhan: ${v('qty')}\nCatatan: ${v('catatan')}`;
+ window.open(`https://wa.me/${WA}?text=${encodeURIComponent(m)}`,'_blank');});
+$('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
